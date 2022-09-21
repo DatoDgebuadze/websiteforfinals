@@ -1,0 +1,11 @@
+*{
+    background-color: black
+}
+
+
+.center{
+    padding: 5;
+    box-sizing: border-box;
+    color: aliceblue;
+    transform: translate(600px, 250px)
+}
