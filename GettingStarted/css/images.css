@@ -1,67 +1,76 @@
-*{
-    background-color: black;
-    scroll-behavior: unset;
+body{
+    margin: 2em;
+    background: black;
+}
+ul  li{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    overflow:hidden;
-
+    list-style-type: none;;
 }
 
 
-.center{
-    font-size: 3em;
-    font-weight: 150em;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    margin-top: 5.9em;
-    margin-left: 9em;
-    margin-right: 3.4em;
-    margin-bottom: 3.4em;
-    align-items: center;
-    border: 0.1em solid white;
-   
-}
-header {
+.list{
     padding: 40px 0 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    
 }
-
-nav {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-left: 30%;
-    padding-right: 8%;
-}
-
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-nav ul li a {
+ul li a {
+    display: block;
     color: aliceblue;
+    font-size: 2em;
+    text-decoration: none;
+}
+.contentf {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.con{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0.4em;
-    padding-left: 10%;
-    padding-right: 8%;
+.Cwhite{
     color: white;
 }
+.pwhite{
+    color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+h1,h2,h3, p{
+    color: antiquewhite
+    
+}
+header{
+    max-width: 1200px;
+    margin: 2em auto;
+    border-bottom: 0.2em solid #bbc;
+}
 
+.grid-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+} 
+ 
+.grid-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+img {
+
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  
+  }
+article img, article.img {
+    width: 100%;
+    border: 0.2em solid white;
+    border-radius: 3em;
+}
