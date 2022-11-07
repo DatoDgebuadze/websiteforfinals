@@ -1,0 +1,28 @@
+/*Davit Dgebuadze For Web Development Assignment */
+
+*{
+    background-color: gainsboro;
+    
+}
+
+body{
+font-size: 1em;
+
+}
+
+
+.navflexcontainer{
+    margin-bottom: 2em;
+    display: flex;
+    gap: 3em;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+ul{
+    text-decoration: none;
+}
+.color{
+    
+    color: black;
+}

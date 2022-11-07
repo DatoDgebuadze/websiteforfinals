@@ -1,0 +1,8 @@
+button
+{
+	margin-right:2em;
+	border-radius: 1em 3em; 
+	transition: all 0.5s;
+	height:2.5em;
+	width:4em;
+}
