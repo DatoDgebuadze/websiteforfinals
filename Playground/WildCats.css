@@ -1,0 +1,39 @@
+.top {
+	background-color: lightpink;
+	font-size: 3em; /* xx-large isn't big enough */
+	border: 0.1em dashed navy;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	padding: 0.5em;
+	/* Add 6 lines of code */
+	margin-bottom: 1em;
+}
+
+.main {
+	background-color: lightgreen;
+	border: 0.1em solid black;
+	/* Add 5 lines of code */
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	width: 70%;
+	
+	
+}
+
+.leopard {
+	/* Add 2 lines of code */
+	margin-right: 1em;
+	margin-left: 1em;
+	
+	
+}
+
+.panther {
+	/* Add 1 line of code */
+	border-style: bold;
+	
+}

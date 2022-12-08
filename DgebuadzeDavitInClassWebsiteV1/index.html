@@ -8,21 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Davit's Personal Portfolio</title>
 </head>
+<header>
+    <h1>Davit's Portfolio</h1>
+<div class="navflexcontainer"></div>
+  <ul class="nav__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="table.html">table</a></li>
+    <li><a href="images.html">images</a></li>
+    <li><a href="form.html">form</a></li>
+  </ul>
+</nav>
+<li class="socials">
+    <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+</li>
+</header>
 
 <body>
-    <header class="container">
-        <nav class="nav">
-            <ul><a href="index.html">Home</a></ul>
-            <ul><a href="table.html">Table</a></ul>
-            <ul><a href="images.html">Images</a></ul>
-            <ul><a href="form.html">Form</a></ul>
-        </nav>
-    </header>
-    <h1>Davit's Personal Portfolio</h1>
-    <h2>Few words about me!</h2>
+
+<div class="maincontainer">
+    <h1 class="title">Davit's Personal Portfolio</h1>
+    <h2>Few words <span>about me! </span></h2>
+    <div class="MainBody">
     <p>Hello, I am Davit Web developer from a tiny beautiful country Georgia. I am currently, living in Kingston,
         Ontario. I have studied at BTU- Business and Technology University, Information Technologies, Nowadays I am
         enrolled at St Lawrence College studying Computer Programming and Analysis. Throughout my life, I dedicated
@@ -31,11 +43,27 @@
         back-end systems. My main principle when working on a front end is that When you're developing a page, not one
         pixel on your website should go unused.
     </p>
+</div>
+    <p>Web <span>Developers</span> work on implementing visual designs and layouts, integrating graphics and content, optimizing
+        website performance and capacity, and testing to ensure solid performance across any type of computer, mobile or
+        device screen. No matter your exact job, if you want to become a Web Developer you would be expected to
+        understand how to write code in some widely used web programming languages including JavaScript, HTML (HyperText
+        Markup Language), CSS (Cascading Style Sheets), and more.
+        Front-End Web <span>Developers </span> typically focus on the visual and design elements of websites and can anticipate and
+        fully appreciate user needs and behavior. As the name suggests, front-end (or client-side) development involves
+        the programming of what will be visible to the user. Languages like JavaScript, CSS, and HTML are widely used by
+        Front-End <span>developers.</span>
+
+        Because front-end development is responsible for what you can see on a website, it’s often confused with web
+        design. Although Front-End <span>developers</span> don’t design websites, they are the link between design and technology
+        that can turn an idea into an interactive web page.
+    </p>
+
     <ol>
         <li>HTML/CSS</li>
         <li>NODEJS</li>
         <li> REACTJS
-        <ul>
+        <ul class="square">
             <li>
                 reactjs 18.2.0
             </li>
@@ -47,21 +75,13 @@
         <li>EXPRESSJS</li>
         <li>AXIOS</li>
     </ol>
-    <p>Web Developers work on implementing visual designs and layouts, integrating graphics and content, optimizing
-        website performance and capacity, and testing to ensure solid performance across any type of computer, mobile or
-        device screen. No matter your exact job, if you want to become a Web Developer you would be expected to
-        understand how to write code in some widely used web programming languages including JavaScript, HTML (HyperText
-        Markup Language), CSS (Cascading Style Sheets), and more.
-        Front-End Web Developers typically focus on the visual and design elements of websites and can anticipate and
-        fully appreciate user needs and behavior. As the name suggests, front-end (or client-side) development involves
-        the programming of what will be visible to the user. Languages like JavaScript, CSS, and HTML are widely used by
-        Front-End Developers.
-
-        Because front-end development is responsible for what you can see on a website, it’s often confused with web
-        design. Although Front-End Developers don’t design websites, they are the link between design and technology
-        that can turn an idea into an interactive web page.
-    </p>
-    <footer>&#169; Davit Dgebuadze | <a href = "mailto: davit.dgebuadze@student.sl.on.ca">Davit.dgebuadze@student.sl.on.ca</a> </footer>
+</div>
+    <footer>
+        <div class="footercontainer">  &#169; Davit Dgebuadze | <a class="contact" href = "mailto: davit.dgebuadze@student.sl.on.ca">Davit.dgebuadze@student.sl.on.ca</a>
+            <p>Built Personal Portfolio Page For Web Development Assigment.</p>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
