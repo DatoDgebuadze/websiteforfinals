@@ -14,14 +14,14 @@
 </head>
 <header>
     <h1>Davit's Portfolio</h1>
-<div class="navflexcontainer"></div>
+<div class="navflexcontainer">  
   <ul class="nav__links">
     <li><a href="index.html">Home</a></li>
     <li><a href="table.html">table</a></li>
     <li><a href="images.html">images</a></li>
     <li><a href="form.html">form</a></li>
   </ul>
-</nav>
+</div>
 <li class="socials">
     <a href="facebook.com"><i class="fa fa-facebook"></i></a>
     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -33,7 +33,7 @@
 
 <div class="maincontainer">
     <h1 class="title">Davit's Personal Portfolio</h1>
-    <h2>Few words <span>about me! </span></h2>
+    <h2 class="sub-header">Few words about me!</h2>
     <div class="MainBody">
     <p>Hello, I am Davit Web developer from a tiny beautiful country Georgia. I am currently, living in Kingston,
         Ontario. I have studied at BTU- Business and Technology University, Information Technologies, Nowadays I am
@@ -43,7 +43,7 @@
         back-end systems. My main principle when working on a front end is that When you're developing a page, not one
         pixel on your website should go unused.
     </p>
-</div>
+    <br>
     <p>Web <span>Developers</span> work on implementing visual designs and layouts, integrating graphics and content, optimizing
         website performance and capacity, and testing to ensure solid performance across any type of computer, mobile or
         device screen. No matter your exact job, if you want to become a Web Developer you would be expected to
@@ -56,10 +56,13 @@
 
         Because front-end development is responsible for what you can see on a website, it’s often confused with web
         design. Although Front-End <span>developers</span> don’t design websites, they are the link between design and technology
-        that can turn an idea into an interactive web page.
+        that can turn an idea into an interactive web page. I will make your dreams come true!
     </p>
+</div>
 
-    <ol>
+   
+    <ol class="O-1">
+        <h2>My Skills</h2>
         <li>HTML/CSS</li>
         <li>NODEJS</li>
         <li> REACTJS
@@ -76,12 +79,17 @@
         <li>AXIOS</li>
     </ol>
 </div>
+
+<button onclick="topFunction()" id="SC-1">Back to TOP</button>
     <footer>
         <div class="footercontainer">  &#169; Davit Dgebuadze | <a class="contact" href = "mailto: davit.dgebuadze@student.sl.on.ca">Davit.dgebuadze@student.sl.on.ca</a>
             <p>Built Personal Portfolio Page For Web Development Assigment.</p>
+            <script>document.write(new Date().toLocaleString('default', { month: 'long', day: 'numeric', year: 'numeric' }))</script>
         </div>
         
     </footer>
+
+    <script src="./JS/script.js"></script>
 </body>
 
 </html>

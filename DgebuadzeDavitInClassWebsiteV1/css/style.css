@@ -29,6 +29,18 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
+.title{
+    text-align: center;
+    font-size: 2em;
+}
+
+.MainBody{
+    border: 1em double black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 h1 {
     color: white;
 }
@@ -55,7 +67,7 @@ header {
 .nav__links {
     list-style: none;
     text-transform: uppercase;
-    font-weight:bold
+    font-weight:bold;
     text-decoration: none;
 }
 
@@ -74,6 +86,23 @@ table {
     margin-bottom: 15.7em;
 }
 
+.O-1{
+    margin: 1.5em;
+    padding: 3.5em;
+    ;
+}
+
+.T-2{
+    margin: 0.5em;
+    padding: 1.5em;
+    width: 75%;
+    text-align: center;
+}
+.sub-header{
+    font-size: medium;
+    text-align: center;
+    color: ;
+}
 span {
     font-style: italic;
     background-color: bisque;
@@ -82,6 +111,33 @@ a {
     color: cornflowerblue;
 }
 
+.C-1{
+    text-align: center;
+    font-size: large;
+}
+
+.P-2{
+    text-align: center;
+}
+
+#SC-1{
+    display: flex;
+    position: fixed;
+    bottom: 1em;
+    right: 1.5em;
+    z-index: 99;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: #333  ;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+#SC-1:hover {
+    background-color: #559;
+  }
 .navflexcontainer ul a:hover {
     background: #6666ff;
 }
